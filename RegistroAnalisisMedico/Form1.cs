@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RegistroAnalisisMedico.UI.Registros;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +21,12 @@ namespace RegistroAnalisisMedico
         private void RegistroToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void AnalisisToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            rAnalisis analisis = new rAnalisis();
+            analisis.Show();
         }
     }
 }
